@@ -1,0 +1,55 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Section */
+.container {
+    padding: 20px;
+}
+
+/* CSS cho phần chi tiết sản phẩm */
+.product-frame {
+    width: 90%; /* Chiều rộng 80% màn hình */
+    margin: 0 auto; /* Canh giữa */
+    padding: 20px; /* Khoảng cách nội dung */
+    background-color: #fff; /* Nền trắng */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng bóng đổ nhẹ */
+    border-radius: 8px; /* Bo góc */
+    text-align: center; /* Canh giữa nội dung */
+    margin-top: 50px; /* Khoảng cách trên */
+}
+
+/* Tiêu đề sản phẩm */
+.product-frame h1 {
+    font-size: 2.5rem; /* Kích thước chữ tiêu đề */
+    font-weight: bold; /* Chữ đậm */
+    color: #333; /* Màu chữ */
+}
+
+/* Ảnh sản phẩm */
+.product-frame img {
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng */
+    width: 50rem;
+    height: auto; /* Tự động điều chỉnh chiều cao */
+    border-radius: 8px; /* Bo góc ảnh */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng bóng đổ */
+    margin-bottom: 20px; /* Khoảng cách dưới ảnh */
+}
+
+/* Giá sản phẩm */
+.product-frame p {
+    font-size: 1.2rem; /* Kích thước chữ cho giá */
+    font-weight: bold; /* Chữ đậm */
+}
+
+.btn-holder 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

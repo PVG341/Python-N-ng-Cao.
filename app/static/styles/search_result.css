@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FEF3E2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container
+{
+    margin-top: 20px;
+    background-color: #fff;
+}
